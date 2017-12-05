@@ -11,3 +11,5 @@ php artisan key:generate
 php artisan serve
 
 PORT 8000
+
+NOTE: edit file .env & /config/database.php
