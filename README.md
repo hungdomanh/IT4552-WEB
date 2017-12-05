@@ -17,6 +17,11 @@ php artisan serve
 
 PORT 8000
 
+Create db: 
+```
+	composer dump-autoload
+	php artisan db:seed
+
 -------
 NOTE: 
 	edit file .env & /config/database.php
