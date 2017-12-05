@@ -28,5 +28,15 @@ class ProgramController extends Controller
 		// TODO
 
 	}   
+
+	public function getProgramAllContent() {
+		// TODO
+
+	}
+	
+	public function getProgramsPaging() {
+		// TODO
+
+	}
 	 
 }

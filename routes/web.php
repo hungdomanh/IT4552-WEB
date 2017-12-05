@@ -12,7 +12,7 @@
 */
 
 // Home
-Route::get('/', 'HomeController@getHome');
+Route::get('/', 'IndexController@getHome');
 
 // Authen
 Route::get('login', 'AuthenController@getLogin');
@@ -28,8 +28,11 @@ Route::post('{username}/profile', 'UsersController@postUpdate');
 
 // Programs
 Route::get('programs', 'ProgramsController@getPrograms');
-Route::get('programs/{programId}', 'ProgramsController@getProgram');
+Route::get('programs/{programId}', 'ProgramsController@getProgram');  // Struncate content
+Route::get('programs/{programId}/readmore', 'ProgramsController@getProgramAllContent');  // Readmore
+Route::get('programs/{{paging}}', 'ProgramsController@getProgramsPaging');
 Route::post('search', 'ProgramsController@postSearch');
+
 
 // Actions
 Route::get('programs/{username}', 'ActionsController@getPrograms');
