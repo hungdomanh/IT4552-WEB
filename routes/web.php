@@ -11,6 +11,29 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Home
+Route::get('/', 'HomeController@getHome');
+
+// Authen
+Route::get('login', 'AuthenController@getLogin');
+Route::get('signup', 'AuthenController@getSignup');
+Route::get('logout', 'AuthenController@logout');
+Route::post('signup', 'AuthenController@postSignup');
+Route::post('login', 'AuthenController@postLogin');
+
+// User
+Route::get('{username}/profile', 'UsersController@getProfile');
+Route::get('{username}/my-page', 'UsersController@getMyPage');
+Route::post('{username}/profile', 'UsersController@postUpdate');
+
+// Programs
+Route::get('programs', 'ProgramsController@getPrograms');
+Route::get('programs/{programId}', 'ProgramsController@getProgram');
+Route::post('search', 'ProgramsController@postSearch');
+
+// Actions
+Route::get('programs/{username}', 'ActionsController@getPrograms');
+Route::post('programs/{programId}/{username}', 'ActionsController@postProgramToUser');
+
+// Error
+Route::get('error', 'ErrorController@getError');
