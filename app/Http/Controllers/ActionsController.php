@@ -14,12 +14,12 @@ use Illuminate\Http\Response;
 class ActionsController extends Controller
 {
     //
-	public function getPrograms() {
+	public function getPrograms($username) {
 		// TODO
 		
 	}
 	
-	public function postProgramToUser() {
+	public function postProgramToUser($programId, $username) {
 		// TODO
 
 	}

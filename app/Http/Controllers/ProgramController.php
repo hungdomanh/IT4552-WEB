@@ -14,14 +14,14 @@ use Illuminate\Http\Response;
 class ProgramController extends Controller
 {
     //
-	public function getPrograms() {
+	public function getPrograms($paging) {
 		// TODO
-
+		return view('pages.programs');
 	}
 	
-	public function getProgram() {
+	public function getProgram($programId) {
 		// TODO
-
+		return view('pages.program');
 	}
 	
 	public function postSearch() {
@@ -36,7 +36,7 @@ class ProgramController extends Controller
 	
 	public function getProgramsPaging() {
 		// TODO
-
+		return view('pages.login');
 	}
 	 
 }

@@ -12,31 +12,28 @@
 */
 
 // Home
-Route::get('/', 'IndexController@getHome');
+Route::get( '/', 'IndexController@getHome');
 
 // Authen
-Route::get('login', 'AuthenController@getLogin');
-Route::get('signup', 'AuthenController@getSignup');
-Route::get('logout', 'AuthenController@logout');
-Route::post('signup', 'AuthenController@postSignup');
-Route::post('login', 'AuthenController@postLogin');
+Route::get( 'login', 	'AuthenController@getLogin');
+Route::get( 'signup', 	'AuthenController@getSignup');
+Route::get( 'logout', 	'AuthenController@logout');
+Route::post('signup', 	'AuthenController@postSignup');
+Route::post('login', 	'AuthenController@postLogin');
 
 // User
-Route::get('{username}/profile', 'UsersController@getProfile');
-Route::get('{username}/my-page', 'UsersController@getMyPage');
-Route::post('{username}/profile', 'UsersController@postUpdate');
+Route::get( 'profile/{username}', 'UsersController@getProfile');
+Route::get( 'my-page/{username}', 'UsersController@getMyPage');
+Route::post('profile/{username}', 'UsersController@postUpdate');
 
 // Programs
-Route::get('programs', 'ProgramsController@getPrograms');
-Route::get('programs/{programId}', 'ProgramsController@getProgram');  // Struncate content
-Route::get('programs/{programId}/readmore', 'ProgramsController@getProgramAllContent');  // Readmore
-Route::get('programs/{{paging}}', 'ProgramsController@getProgramsPaging');
-Route::post('search', 'ProgramsController@postSearch');
-
+Route::get( 'programs/{programId}', 	'ProgramController@getProgram');  
+Route::get( 'programs/paging/{paging}', 'ProgramController@getPrograms');
+Route::post('programs/search', 			'ProgramController@postSearch');
 
 // Actions
-Route::get('programs/{username}', 'ActionsController@getPrograms');
-Route::post('programs/{programId}/{username}', 'ActionsController@postProgramToUser');
+Route::get( 'programs/user/{username}', 			'ActionsController@getPrograms');
+Route::post('programs/add/{programId}/{username}', 	'ActionsController@postProgramToUser');
 
 // Error
-Route::get('error', 'ErrorController@getError');
+Route::get( 'error', 'ErrorController@getError');

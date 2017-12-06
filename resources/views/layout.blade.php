@@ -5,6 +5,7 @@
 	@include ('head')
 </head>
 <body>
+	@yield('banner-top')
 	@include ('header')
 	<div class="main">
 		@yield('content')  
