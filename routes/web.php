@@ -22,9 +22,9 @@ Route::post('signup', 	'AuthenController@postSignup');
 Route::post('login', 	'AuthenController@postLogin');
 
 // User
-Route::get( 'profile/{username}', 'UserController@getProfile');
-Route::get( 'my-page/{username}', 'UserController@getMyPage');
-Route::post('profile/{username}', 'UserController@postUpdate');
+Route::get( 'profile', 'UserController@getProfile')->middleware('auth');;
+Route::get( 'my-page', 'UserController@getMyPage')->middleware('auth');;
+Route::post('profile', 'UserController@postUpdate')->middleware('auth');;
 
 // Programs
 Route::get( 'programs/{programId}', 	'ProgramController@getProgram');  

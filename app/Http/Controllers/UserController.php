@@ -17,28 +17,31 @@ use Illuminate\Http\Response;
 
 class UserController extends Controller
 {
-	public function getProfile($username) {
+	public function getProfile() {
 		// TODO
-		$user = User::where('username', $username)->first();
+		// $user = User::where('username', $username)->first();
+		$user = Auth::user();
 		return view('pages.profile')->with('user',$user);
 	}
 	
-	public function getMyPage($username) {
+	public function getMyPage() {
 		// TODO
-		$user = User::where('username', $username)->first();
 
+		// $user = User::where('username', $username)->first();
+		$user = Auth::user();
 		$following_program = DB::table('users')
 		->where('users.id', $user->id)
 		->leftjoin('my_programs', 'users.id', '=', 'my_programs.user_id')
 		->leftjoin('programs', 'my_programs.program_id', '=', 'programs.id')
 		->get();
 
-		return view('page.user-page')->with('following_program', $following_program);
+		return view('pages.user-page')->with('following_program', $following_program);
 	}
 	
 	public function postUpdate(Request $request, $username) {
 		// TODO
-		$user = User::where('username', $username)->first();
+		// $user = User::where('username', $username)->first();
+		$user = Auth::user();
 		$user->fullname = $request->fullname;
 		$user->purpose = $request->purpose;
 		

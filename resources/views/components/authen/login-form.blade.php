@@ -14,12 +14,17 @@
 			<div class="login-page">
 				<div class="login-title">
 					<h4 class="title">Registered Customers</h4>
+					@if(session('alert'))
+					<div class="alert alert-danger">
+						{{session('alert')}}
+					</div>
+					@endif
 					<div id="loginbox" class="loginbox">
-						<form action="{{route('login')}}" method="post" name="login" id="login-form">
+						<form action="login" method="post" name="login" id="login-form">
 							<input type="hidden" name="_token" value="{{ csrf_token() }}">
 							<fieldset class="input">
 								<p id="login-form-username">
-									<label for="modlgn_username">Email</label>
+									<label for="modlgn_username">Username</label>
 									<input id="modlgn_username" type="text" name="username" class="inputbox" size="18" autocomplete="off">
 								</p>
 								<p id="login-form-password">
