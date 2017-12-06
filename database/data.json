@@ -1,8 +1,378 @@
-Đạp xe đạp
-Chạy bộ
-Nhảy dây
-Đi bộ
-Chống đẩy tay trước
-Chống đẩy tay sau
-căng dãn cơ thể
-Plank
+[
+{"id" :"1",
+"name": "\nTrail Running/Walking\n",
+"content": [
+			"Running or hiking on trails will get the blood pumping and heart beating almost immediately. Make sure you have good shoes. While you use the muscles in your calves and buttocks to pull yourself up a hill, the knees, joints and ankles absorb the bulk of the pounding coming back down. Take smaller steps as you walk downhill, keep your knees bent to reduce the impact and slow down to avoid falling.", 
+			" A 150 lb person can burn over 200 calories for 30 minutes walking uphill, compared to 175 on a flat surface. If running the trail, a 150 lb person can burn well over 500 calories in 30 minutes."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/657/Male/l/657_1.jpg"
+		],
+"level": 1,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"2",
+	"name": "\nStanding Dumbbell Upright Row\n",
+"content": [
+			"Grasp a dumbbell in each hand with a pronated (palms forward) grip that is slightly less than shoulder width.  The dumbbells should be resting on top of your thighs. Your arms should be extended with a slight bend at the elbows and your back should be straight.  This will be your starting position.", 
+			"Use your side shoulders to lift the dumbbells as you exhale.  The dumbbells should be close to the body as you move it up and the elbows should drive the motion.  Continue to lift them until they nearly touch your chin.  ", 
+			"Your elbows should drive the motion.  As you lift the dumbbells, your elbows should always be higher than your forearms.  Also, keep your torso stationary and pause for a second at the top of the movement.", 
+			"Lower the dumbbells back down slowly to the starting position.  Inhale as you perform this portion of the movement.", 
+			"Repeat for the recommended amount of repetitions."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/368/Male/l/368_2.jpg"
+		],
+"level": 2,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+
+{"id" :"3",
+	"name": "\nHang Snatch\n",
+"content": [
+			"Begin with a wide grip on the bar, with an overhand or hook grip. The feet should be directly below the hips with the feet turned out. Your knees should be slightly bent, and the torso inclined forward. The spine should be fully extended and the head facing forward. The bar should be at the hips. This will be your starting position.", 
+			"Aggressively extend through the legs and hips. At peak extension, shrug the shoulders and allow the elbows to flex to the side.", 
+			"As you move your feet into the receiving position, forcefully pull yourself below the bar as you elevate the bar overhead. Receive the bar with your body as low as possible and the arms fully extended overhead.", 
+			"Return to a standing position with the weight overhead. Follow by returning the weight to the ground under control."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/690/Male/l/690_2.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"4",
+	"name": "\nBench Dips\n",
+"content": [
+			"For this exercise you will need to place a bench behind your back.  With the bench perpendicular to your body, and while looking away from it, hold on to the bench on its edge with the hands fully extended, separated at shoulder width. The legs will be extended forward, bent at the waist and perpendicular to your torso.  This will be your starting position.", 
+			"Slowly lower your body as you inhale by bending at the elbows until you lower yourself far enough to where there is an angle slightly smaller than 90 degrees between the upper arm and the forearm.  Tip: Keep the elbows as close as possible throughout the movement.  Forearms should always be pointing down.", 
+			"Using your triceps to bring your torso up again, lift yourself back to the starting position.", 
+			"Repeat for the recommended amount of repetitions."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/344/Male/l/344_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+
+{"id" :"5",
+	"name": "\nGoblet Squat\n",
+"content": [
+			"Stand holding a light kettlebell by the horns close to your chest. This will be your starting position.", 
+			" Squat down between your legs until your hamstrings are on your calves. Keep your chest and head up and your back straight.", 
+			" At the bottom position, pause and use your elbows to push your knees out. Return to the starting position, and repeat for 10-20 repetitions."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/590/Male/l/590_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"6",
+	"name": "\nOne Arm Dumbbell Preacher Curl\n",
+	"content": [
+			" Grab a dumbbell with the right arm and place the upper arm on top of the preacher bench or the incline bench.  The dumbbell should be held at shoulder length.  This will be your starting position.", 
+			" As you breathe in, slowly lower the dumbbell until your upper arm is extended and the biceps is fully stretched.", 
+			" As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the dumbbell is at shoulder height.  Again, remember that to ensure full contraction you need to bring that small finger higher than the thumb.", 
+			" Squeeze the biceps hard for a second at the contracted position and repeat for the recommended amount of repetitions.", 
+			" Switch arms and repeat the movement."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/255/Male/l/255_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"7",
+	"name": "\nHandstand Push-Ups\n",
+	"content": [
+			" With your back to the wall bend at the waist and place both hands on the floor at shoulder width.", 
+			" Kick yourself up against the wall with your arms straight. Your body should be upside down with the arms and legs fully extended.  Keep your whole body as straight as possible.  ", 
+			" If doing this for the first time, have a spotter help you.  Also, make sure that you keep facing the wall with your head, rather than looking down.", 
+			" Slowly lower yourself to the ground as you inhale until your head almost touches the floor.  ", 
+			" It is of utmost importance that you come down slow in order to avoid head injury.", 
+			" Push yourself back up slowly as you exhale until your elbows are nearly locked.", 
+			" Repeat for the recommended amount of repetitions."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/227/Male/l/227_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"8",
+	"name": "\nDumbbell Alternate Bicep Curl\n",
+	"content": [
+			" Stand (torso upright) with a dumbbell in each hand held at arms length.  The elbows should be close to the torso and the palms of your hand should be facing your thighs.", 
+			" While holding the upper arm stationary, curl the right weight as you rotate the palm of the hands until they are facing forward.  At this point continue contracting the biceps as you breathe out until your biceps is fully contracted and the dumbbells are at shoulder level.  Hold the contracted position for a second as you squeeze the biceps. ", 
+			" Only the forearms should move.", 
+			" Slowly begin to bring the dumbbell back to the starting position as your breathe in.  ", 
+			" Remember to twist the palms back to the starting position (facing your thighs) as you come down.", 
+			" Repeat the movement with the left hand.  This equals one repetition.", 
+			" Continue alternating in this manner for the recommended amount of repetitions.", 
+			" There are many possible variations for this movement.  For instance, you can perform the exercise sitting down on a bench with or without back support and you can also perform it using both arms at the same time.  Additionally, you may perform it with a starting position in which both palms are facing forward.  In this case, you may alternate the arms as well, or perform at the same time.", 
+			" You can also do the exercise starting with both palms of the hands facing the torso and then rotating forward as the movement is performed.  At the top of the movement the palms should face forward and the small finger should be higher than the thumb for a peak contraction."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/234/Male/l/234_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"9",
+	"name": "\nHandstand Push-Ups\n",
+	"content": [
+			"Stand to one side of the box with your left foot resting on the middle of it.", 
+			" To begin, jump up and over to the other side of the box, landing with your right foot on top of the box and your left foot on the floor. Swing your arms to aid your movement.", 
+			" Continue shuffling back and forth across the box."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/227/Male/l/227_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"10",
+	"name": "\nSide to Side Box Shuffle\n",
+	"content": [
+			"Stand with your feet slightly wider than shoulder width apart and toes pointing out slightly.", 
+			"Squat down and grasp bar with a closed, pronated grip. Your hands should be slightly wider than shoulder width apart outside knees with elbows fully extended.", 
+			"Place the bar about 1 inch in front of your shins and over the balls of your feet.", 
+			"Your back should be flat or slightly arched, your chest held up and out and your shoulder blades should be retracted.", 
+			"Keep your head in a neutral position (in line with vertebral column and not tilted or rotated) with your eyes focused straight ahead. Inhale during this phase.", 
+			"Lift the bar from the floor by forcefully extending the hips and the knees as you exhale.  ", 
+			" The upper torso should maintain the same angle.  Do not bend at the waist yet and do not let the hips rise before the shoulders (this would have the effect of pushing the glutes in the air and stretching the hamstrings.", 
+			"Keep elbows fully extended with the head in a neutral position and the shoulders over the bar.", 
+			"As the bar raises keep it as close to the shins as possible.", 
+			"As the bar passes the knees, thrust your hips forward and slightly bend the knees to avoid locking them. ", 
+			" At this point your thighs should be against the bar.", 
+			"Keep the back flat or slightly arched, elbows fully extended and your head neutral. ", 
+			" You will hold your breath until the next phase.", 
+			"Inhale and then forcefully and quickly extend your hips and knees and stand on your toes.", 
+			"Keep the bar as close to your body as possible.  ", 
+			" Your back should be flat with the elbows pointed out to the sides and your head in a neutral position.  Also, keep your shoulders over the bar and arms straight as long as possible.", 
+			"When your lower body joints are fully extended, shrug the shoulders upward rapidly without letting the elbows flex yet. Exhale during this portion of the movement.", 
+			"As the shoulders reach their highest elevation flex your elbows to begin pulling your body under the bar.", 
+			"Continue to pull the arms as high and as long as possible. ", 
+			" Due to the explosive nature of this phase, your torso will be erect or with an arched back, your head will be tilted back slightly and your feet may lose contact with the floor.", 
+			"After the lower body has fully extended and the bar reaches near maximal height, pull your body under the bar and rotate the arms around and under the bar.", 
+			"Simultaneously, flex the hips and knees into a quarter squat position.", 
+			"Once the arms are under the bar, inhale and then lift your elbows to position the upper arms parallel to the floor. Rack the bar across the front of your collar bones and front shoulder muscles.", 
+			"Catch the bar with an erect and tight torso, a neutral head position and flat feet. Exhale during this movement.", 
+			"Stand up by extending the hips and knees to a fully erect position.", 
+			"Lower the bar by gradually reducing the muscular tension of the arms to allow a controlled descent of the bar to the thighs. Inhale during this movement.", 
+			"Simultaneously flex the hips and knees to cushion the impact of the bar on the thighs.", 
+			"Squat down with the elbows fully extended until the bar touches the floor.", 
+			"Start over at Phase 1 and repeat for the recommended amount of repetitions."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/817/Male/l/817_4.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"11",
+	"name": "\nPower Clean\n",
+	"content": [
+			"The snatch deadlift strengthens the first pull of the snatch. Begin with a wide snatch grip with the barbell placed on the platform. The feet should be directly under the hips, with the feet turned out. Squat down to the bar, keeping the back in absolute extension with the head facing forward.", 
+			" Initiate the movement by driving through the heels, raising the hips. The back angle should remain the same until the bar passes the knees.", 
+			" At that point, drive your hips through the bar as you lay back. Return the bar to the platform by reversing the motion."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/185/Male/l/185_2.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"12",
+	"name": "\nSnatch Deadlift\n",
+	"content": [
+			" Sit down on a bench with back support and grasp a dumbbell with both hands and hold it overhead at arm's length.  ", 
+			" a better way is to have somebody hand it to you especially if it is very heavy. The resistance should be resting in the palms of your hands with your thumbs around it. The palm of the hand should be facing inward.  This will be your starting position.", 
+			" Keeping your upper arms close to your head (elbows in) and perpendicular to the floor, lower the resistance in a semi-circular motion behind your head until your forearms touch your biceps. ", 
+			" The upper arms should remain stationary and only the forearms should move.  Breathe in as you perform this step.", 
+			" Go back to the starting position by using the triceps to raise the dumbbell. Breathe out as you perform this step.", 
+			" Repeat for the recommended amount of repetitions.", 
+			" You can perform this exercise standing as well but this puts strain on your back especially if you are using heavy dumbbells like 95 lbs or so.", 
+			" Another variation is to use an EZ or straight bar instead in which case you will be holding the bar from the inside (around 5 inches between both hands) with the palms facing forward (pronated grip).", 
+			" There is also a bar that has parallel bars inside (often referred to as a triceps blaster) and this can also be used for this exercise.", 
+			" Finally, a low pulley cable with a rope attachment or bar (straight or EZ) attachment at the end can be used for variety purposes as well."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/716/Male/l/716_2.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"13",
+	"name": "\nSeated Triceps Press\n",
+	"content": [
+			"Adjust the cable to the same height as your elbow. Stand with your left side to the band a couple of feet away.", 
+			" Grasp the handle with your right hand, and keep your elbow pressed firmly to your side. We recommend you hold a pad or foam roll in place with your elbow to keep it firmly in position. ", 
+			"With your upper arm in position, your elbow should be flexed to 90 degrees with your hand reaching across the front of your torso. This will be your starting position.", 
+			" Execute the movement by rotating your arm in a backhand motion, keeping your elbow in place. "
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/341/Male/l/341_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"14",
+	"name": "\nExternal Rotation with Cable\n",
+	"content": [
+			" Grab the pull-up bar with the palms facing forward using a wide grip.", 
+			" As you have both arms extended in front of you holding the bar, bring your torso forward and head so that there is an imaginary line from the pull-up bar to the back of your neck.  This is your starting position.", 
+			" Pull your torso up until the bar is near the back of your neck. To do this, draw the shoulders and upper arms down and back while slightly leaning your head forward.  Exhale as you perform this portion of the movement.  ", 
+			" Concentrate on squeezing the back muscles once you reach the full contracted position.  The upper torso should remain stationary as it moves through space and only the arms should move.  The forearms should do no other work other than hold the bar.", 
+			" After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.", 
+			" Repeat this motion for the prescribed amount of repetitions.", 
+			" If you are new at this exercise and do not have the strength to perform it, use a chin assist machine if available.  These machines use weight to help you push your bodyweight.", 
+			" Otherwise, a spotter holding your legs can help."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/869/Male/l/869_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"15",
+	"name": "\nWide-Grip Rear Pull-Up\n",
+	"content": [
+			" Stand up with your torso upright while holding an E-Z Curl Bar at the closer inner handle.  The palm of your hands should be facing forward and they should be slightly tilted inwards due to the shape of the bar.  The elbows should be close to the torso. This will be your starting position.", 
+			" While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out.  ", 
+			" Only the forearms should move.", 
+			" Continue the movement until your biceps are fully contracted and the bar is at shoulder level.  Hold the contracted position for a second and squeeze the biceps hard.", 
+			" Slowly begin to bring the bar back to starting position as your breathe in.", 
+			" Repeat for the recommended amount of repetitions.", 
+			" You can also perform this movement using an E-Z attachment hooked to a low pulley.  This variation seems to really provide a good contraction at the top of the movement.", 
+			" You may also use the wider grip for variety purposes."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/191/Male/l/191_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"16",
+	"name": "\nClose-Grip EZ Bar Curl\n",
+	"content": [
+			" Stand up straight with a dumbbell in each hand.  Your hands should be down at your side with your palms facing in.", 
+			" While keeping your palms facing in and without twisting your arm, curl the dumbbell of the right arm up towards your left shoulder as you exhale. Touch the top of the dumbbell to your shoulder and hold the contraction for a second.", 
+			" Slowly lower the dumbbell along the same path as you inhale and then repeat the same movement for the left arm.", 
+			" Continue alternating in this fashion until the recommended amount of repetitions is performed for each arm."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/238/Male/l/238_1.jpgg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"17",
+	"name": "\nCross Body Hammer Curl\n",
+	"content": [
+			"While standing straight, hold a barbell plate in both hands at the 3 and 9 o'clock positions. Your palms should be facing each other and your arms should be extended and locked with a slight bend at the elbows and the plate should be down near your waist in front of you as far as you can go.  ", 
+			" The arms will remain in this position throughout the exercise.  This will be your starting position.", 
+			"Slowly raise the plate as you exhale until it is a little above shoulder level. Hold the contraction for a second. ", 
+			" make sure that you do not swing the weight or bend at the elbows.  Your torso should remain stationary throughout the movement as well.", 
+			"As you inhale, slowly lower the plate back down to the starting position.", 
+			"Repeat for the recommended amount of repetitions."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/236/Male/m/236_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"18",
+	"name": "\nFront Plate Raise\n",
+	"content": [
+			" Hold a barbell with an overhand grip (palms down) that is a little closer together than shoulder width.", 
+			" Lie back on an incline bench set at any angle between 45-75-degrees.", 
+			" Bring the bar overhead with your arms extended and elbows in.  The arms should be in line with the torso above the head.  This will be your starting position.", 
+			" Now lower the bar in a semicircular motion behind your head until your forearms touch your biceps. Inhale as you perform this movement.  ", 
+			" Keep your upper arms stationary and close to your head at all times. Only the forearms should move.", 
+			" Return to the starting position as you breathe out and you contract the triceps.  Hold the contraction for a second.", 
+			" Repeat for the recommended amount of repetitions."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/230/Male/m/230_1.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"19",
+	"name": "\nIncline Barbell Triceps Extension\n",
+	
+"content": [
+			"Hold an Olympic barbell loaded with 5-10lbs on each side and kneel on the floor.", 
+			"Now place the barbell on the floor in front of you so that you are on all your hands and knees (as in a kneeling push up position).  This will be your starting position.", 
+			"Slowly roll the barbell straight forward, stretching your body into a straight position. Tip: Go down as far as you can without touching the floor with your body.  Breathe in during this portion of the movement.", 
+			"After a second pause at the stretched position, start pulling yourself back to the starting position as you breathe out.  Tip: Go slowly and keep your abs tight at all times."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/347/Male/l/347_2.jpg"
+		],
+"level": 3,
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+{"id" :"20",
+	"name": "\nBarbell Ab Rollout - On Knees\n",
+	"content": [
+			" Lie back on a flat bench with feet firm on the floor.  Using a wide, pronated (palms forward) grip that is around 3 inches away from shoulder width (for each hand), lift the bar from the rack and hold it straight over you with your arms locked.  The bar will be perpendicular to the torso and the floor.  This will be your starting position.", 
+			" As you breathe in, come down slowly until you feel the bar on your middle chest.", 
+			" After a second pause, bring the bar back to the starting position as you breathe out and push the bar using your chest muscles.  Lock your arms and squeeze your chest in the contracted position, hold for a second and then start coming down slowly again.  ", 
+			" It should take at least twice as long to go down than to come up.", 
+			" Repeat the movement for the prescribed amount of repetitions.", 
+			" If you are new at this exercise, it is advised that you use a spotter.  If no spotter is available, then be conservative with the amount of weight used.", 
+			" Also, beware of letting the bar drift too far forward.  You want the bar to fall on your middle chest and nowhere else.", 
+			" Don't bounce the weight off your chest.  You should be in full control of the barbell at all times."
+		], 
+"img": [
+			"https://www.bodybuilding.com/exercises/exerciseImages/sequences/206/Male/l/206_2.jp"
+		],
+"level": 3,	
+"instructor": ["Prof. Columbus Schumm Jr."],
+"information": ["9363 Hirthe Courts Apt. 759
+West Darylchester, WV 47646-6991"],
+},
+]

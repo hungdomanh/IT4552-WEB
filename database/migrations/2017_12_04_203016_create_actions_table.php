@@ -16,14 +16,14 @@ class CreateActionsTable extends Migration
         Schema::create('actions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->time('time');
-            $table->time('during_time');
+            $table->integer('time');
+            $table->integer('during_time');
             $table->integer('program_id')->unsigned();
             $table->timestamps();
         });
-        Schema::table('actions',function(Blueprint $table) {
-            $table->foreign('program_id')->references('id')->on('programs');
-        });
+         Schema::table('actions',function(Blueprint $table) {
+             $table->foreign('program_id')->references('id')->on('programs');
+         });
     }
 
     /**
