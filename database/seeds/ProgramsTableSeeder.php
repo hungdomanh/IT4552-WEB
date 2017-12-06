@@ -22,7 +22,7 @@ class ProgramsTableSeeder extends Seeder
             'content' => $faker->text(1000) ,
             'instructor' => $faker->name, 
             'information' => $faker->address,
-            'image' => 'http://wikiclipart.com/wp-content/uploads/2016/11/Hello-kitty-clip-art-images-cartoon-4.png',
+            'image' => $faker -> image($dir = 'database/seeds/tmp', $width = 640, $height = 480,'sports')
         ]);
         }
     }
