@@ -1,19 +1,3 @@
-<div class="header">
-	<div class="container">
-		<div class="header-text">
-			<h1>Perfect Fitness</h1>
-			<h2>Best Choice For your site</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
-			<div class="banner_btn">
-				<a href="#">Read More</a>
-			</div>
-		</div>
-		<div class="header-arrow">
-			<a href="#menu" class="class scroll"><span> </span </a>
-		</div>
-	</div>
-</div>
-<!-- end header_top -->
 <!-- start header_bottom -->
 <div class="header-bottom">
 	<div class="container">
@@ -38,20 +22,24 @@
 <div class="menu" id="menu">
 	<div class="container">
 		<div class="logo">
-			<a href="index.html"><img src="{{asset('images/logo.png')}}" alt=""/></a>
+			<a href="/"><img src="{{asset('images/logo.png')}}" alt=""/></a>
 		</div>
 		<div class="h_menu4"><!-- start h_menu4 -->
 			<a class="toggleMenu" href="#">Menu</a>
 			<ul class="nav">
 				<li class="active"><a href="/">Home</a></li>
-				<li><a href="/">About</a></li>
-				<li><a href="trainers.html">Trainers</a></li>
-				<li><a href="classes.html">Classes</a>
-					
-				</li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="pricing.html">Pricing</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="/programs">Programs</a></li>
+				<li><a href="/search">Search</a></li>
+
+				<li><a href="/#"></a></li>
+				@if (Auth::check())
+					<li><a href="/my-page">My page</a></li>
+					<li><a href="/profile">Profile</a></li>
+					<li><a href="/logout">Logout</a></li>
+				@else	
+					<li><a href="/login">Login</a></li>
+					<li><a href="/signup">Signup</a></li>
+				@endif
 			</ul>
 		</div><!-- end h_menu4 -->
 		<div class="clear"></div>

@@ -12,31 +12,32 @@
 */
 
 // Home
-Route::get('/', 'IndexController@getHome');
+Route::get( '/', 'IndexController@getHome');
+Route::get( 'home', 'IndexController@getHome');
 
 // Authen
-Route::get('login', 'AuthenController@getLogin');
-Route::get('signup', 'AuthenController@getSignup');
-Route::get('logout', 'AuthenController@logout');
-Route::post('signup', 'AuthenController@postSignup');
-Route::post('login', 'AuthenController@postLogin');
+Route::get( 'login', 	'AuthenController@getLogin');
+Route::get( 'signup', 	'AuthenController@getSignup');
+Route::get( 'logout', 	'AuthenController@logout');
+Route::post('signup', 	'AuthenController@postSignup');
+Route::post('login', 	'AuthenController@postLogin');
 
 // User
-Route::get('{username}/profile', 'UsersController@getProfile');
-Route::get('{username}/my-page', 'UsersController@getMyPage');
-Route::post('{username}/profile', 'UsersController@postUpdate');
-
-// Programs
-Route::get('programs', 'ProgramsController@getPrograms');
-Route::get('programs/{programId}', 'ProgramsController@getProgram');  // Struncate content
-Route::get('programs/{programId}/readmore', 'ProgramsController@getProgramAllContent');  // Readmore
-Route::get('programs/{{paging}}', 'ProgramsController@getProgramsPaging');
-Route::post('search', 'ProgramsController@postSearch');
-
+Route::get( 'profile', 'UserController@getProfile')->middleware('auth');
+Route::get( 'my-page', 'UserController@getMyPage')->middleware('auth');
+Route::post('profile', 'UserController@postUpdate')->middleware('auth');
 
 // Actions
-Route::get('programs/{username}', 'ActionsController@getPrograms');
-Route::post('programs/{programId}/{username}', 'ActionsController@postProgramToUser');
+Route::get( 'programs/user', 			'ActionsController@getPrograms');
+Route::post('programs/add', 					'ActionsController@postProgramToUser');
+
+// Programs
+Route::post('programs/search', 			'ProgramController@postSearch');
+Route::get( 'programs/detail/{programId}', 	'ProgramController@getProgram');  
+Route::get( 'programs', 'ProgramController@getPrograms');
+
+// Search
+Route::get( 'search', 'ProgramController@getSearch');
 
 // Error
-Route::get('error', 'ErrorController@getError');
+Route::get( 'error', 'ErrorController@getError');

@@ -9,13 +9,14 @@ body a{
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
+	font-size: 16px;
 }
 .header {
 	width: 100%;
 	height: 100%;
 	top: 0px;
 	left: 0px;
-	background: url(../images/banner11.jpg)no-repeat center top;
+	background: url(../../images/banner-top-bg.png) no-repeat center top;
 	background-size: 100% 100%;
 	padding:16% 0 0 0;
 	-webkit-background-size: cover;
@@ -3422,7 +3423,7 @@ fieldset.input input[type="submit"]:hover {
 	display: block;
 	text-transform: uppercase;
 }
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+.register-top-grid .input-text, .register-bottom-grid .input-text {
 	border: 1px solid #EEE;
 	outline-color:#00BFF0;
 	width: 96%;

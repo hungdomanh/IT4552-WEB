@@ -20,9 +20,9 @@ class CreateMyProgramsTable extends Migration
             $table->timestamps();
         });
         Schema::table('my_programs',function(Blueprint $table) {
-            $table->foreign('program_id')->references('id')->on('programs');
-            $table->foreign('user_id')->references('id')->on('users');
-        });
+             $table->foreign('program_id')->references('id')->on('programs');
+             $table->foreign('user_id')->references('id')->on('users');
+         });
     }
 
     /**

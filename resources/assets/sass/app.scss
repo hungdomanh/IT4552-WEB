@@ -8,7 +8,9 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-.title1 {
-	// margin: 0 !important;
-	color: red;
+body {
+	font-size: 16px;
+}
+.header {
+	// background: url({{images/banner-top-bg.jpg}}) no-repeat center top;
 }
