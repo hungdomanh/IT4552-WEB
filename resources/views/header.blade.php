@@ -32,11 +32,14 @@
 				<li><a href="/#">Search</a></li>
 
 				<li><a href="/#"></a></li>
-				<li><a href="/login">Login</a></li>
-				<li><a href="/signup">Signup</a></li>
-				<li><a href="/user-page">My page</a></li>
-				<li><a href="/profile">Profile</a></li>
-				<li><a href="/logout">Logout</a></li>
+				@if (Auth::check())
+					<li><a href="/my-page">My page</a></li>
+					<li><a href="/profile">Profile</a></li>
+					<li><a href="/logout">Logout</a></li>
+				@else	
+					<li><a href="/login">Login</a></li>
+					<li><a href="/signup">Signup</a></li>
+				@endif
 			</ul>
 		</div><!-- end h_menu4 -->
 		<div class="clear"></div>

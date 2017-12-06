@@ -5,7 +5,7 @@
 				<h4 class="title">New Customers</h4>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
 				<div class="button1">
-				<a href="/signup"><input type="submit" name="Submit" value="Create an Account"></a>
+					<a href="/signup"><input type="submit" name="Submit" value="Create an Account"></a>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -14,12 +14,18 @@
 			<div class="login-page">
 				<div class="login-title">
 					<h4 class="title">Registered Customers</h4>
+					@if(session('alert'))
+					<div class="alert alert-danger">
+						{{session('alert')}}
+					</div>
+					@endif
 					<div id="loginbox" class="loginbox">
-						<form action="" method="post" name="login" id="login-form">
+						<form action="login" method="post" name="login" id="login-form">
+							<input type="hidden" name="_token" value="{{ csrf_token() }}">
 							<fieldset class="input">
 								<p id="login-form-username">
-									<label for="modlgn_username">Email</label>
-									<input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off">
+									<label for="modlgn_username">Username</label>
+									<input id="modlgn_username" type="text" name="username" class="inputbox" size="18" autocomplete="off">
 								</p>
 								<p id="login-form-password">
 									<label for="modlgn_passwd">Password</label>

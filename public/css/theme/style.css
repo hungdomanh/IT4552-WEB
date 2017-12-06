@@ -3422,7 +3422,7 @@ fieldset.input input[type="submit"]:hover {
 	display: block;
 	text-transform: uppercase;
 }
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+.register-top-grid .input-text, .register-bottom-grid .input-text {
 	border: 1px solid #EEE;
 	outline-color:#00BFF0;
 	width: 96%;

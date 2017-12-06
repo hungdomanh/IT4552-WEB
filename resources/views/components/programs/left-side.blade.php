@@ -1,5 +1,10 @@
 <div class="col-md-8">
-	<div class="blog_box">
+	@foreach ($programs as $program)
+		<div class="blog_box">
+			@include('components.programs.block-medium-program', ['program'=>$program])
+		</div>
+	@endforeach
+	{{-- <div class="blog_box">
 		@include('components.programs.block-medium-program')
 	</div>
 	<div class="blog_box">
@@ -13,7 +18,7 @@
 	</div>
 	<div class="blog_box">
 		@include('components.programs.block-medium-program')
-	</div>
+	</div> --}}
 	
 	<ul class="dc_pagination dc_paginationA dc_paginationA06">
 		<li><a href="#" class="current">Prev</a></li>

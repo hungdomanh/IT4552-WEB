@@ -5,7 +5,6 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />-->
 <script src="{{asset('js/theme/jquery.min.js')}}"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {

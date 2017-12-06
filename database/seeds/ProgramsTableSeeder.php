@@ -22,7 +22,7 @@ class ProgramsTableSeeder extends Seeder
             'content' => $faker->text(1000) ,
             'instructor' => $faker->name, 
             'information' => $faker->address,
-            'image' => $faker -> image($dir = 'database/seeds/tmp', $width = 640, $height = 480,'sports')
+            'image' => $faker -> image($dir = 'database/seeds/tmp', $width = 800, $height = 400,'sports', false)
         ]);
         }
     }
