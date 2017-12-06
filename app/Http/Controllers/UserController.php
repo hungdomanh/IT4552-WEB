@@ -19,15 +19,12 @@ class UserController extends Controller
 {
 	public function getProfile() {
 		// TODO
-		// $user = User::where('username', $username)->first();
 		$user = Auth::user();
 		return view('pages.profile')->with('user',$user);
 	}
 	
 	public function getMyPage() {
 		// TODO
-
-		// $user = User::where('username', $username)->first();
 		$user = Auth::user();
 		$following_program = DB::table('users')
 		->where('users.id', $user->id)
@@ -35,12 +32,11 @@ class UserController extends Controller
 		->leftjoin('programs', 'my_programs.program_id', '=', 'programs.id')
 		->get();
 
-		return view('pages.user-page')->with('following_program', $following_program);
+		return view('pages.my-page')->with('following_program', $following_program);
 	}
 	
-	public function postUpdate(Request $request, $username) {
+	public function postUpdate(Request $request) {
 		// TODO
-		// $user = User::where('username', $username)->first();
 		$user = Auth::user();
 		$user->fullname = $request->fullname;
 		$user->purpose = $request->purpose;

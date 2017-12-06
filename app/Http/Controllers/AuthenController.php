@@ -64,7 +64,11 @@ class AuthenController extends Controller
 
 		$credentials = array('username'=>$req->username,'password'=>$req->password);
 		if (Auth::attempt($credentials)) {
-			return redirect("my-page");
+			$user = Auth::user();
+			if ($user->height && $user->weight) {
+				return redirect("my-page");
+			}
+			return redirect("profile");
 		} else {
 			return redirect('login')->with('alert','Login fail. Please try again');
 		}

@@ -21,7 +21,7 @@ class ProgramController extends Controller
     //
 	public function getPrograms($paging) {
 		// TODO
-		$programs = Program::paginate(6);
+		$programs = Program::paginate(5);
 		return view('pages.programs')->with('programs', $programs);
 	}
 	

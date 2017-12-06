@@ -13,6 +13,7 @@
 
 // Home
 Route::get( '/', 'IndexController@getHome');
+Route::get( 'home', 'IndexController@getHome');
 
 // Authen
 Route::get( 'login', 	'AuthenController@getLogin');

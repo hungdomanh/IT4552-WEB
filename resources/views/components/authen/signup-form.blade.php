@@ -6,11 +6,11 @@
 				<h3>PERSONAL INFORMATION</h3>
 				<div>
 					<span>Full Name<label>*</label></span>
-					<input type="text" name="fullname" required="true"> 
+					<input class="input-text" type="text" name="fullname" required="true"> 
 				</div>
 				<div>
 					<span>Email Address<label>*</label></span>
-					<input type="email" name="email" required="true"> 
+					<input class="input-text" type="email" name="email" required="true"> 
 				</div>
 
 				<div class="clear"> </div>
@@ -26,13 +26,13 @@
 				<h3>LOGIN INFORMATION</h3>
 				<div>
 					<span>Username<label>*</label></span>
-					<input type="text" name="username" required="true"> 
+					<input class="input-text" type="text" name="username" required="true"> 
 				</div>
 				<div>
 					<span>Password<label>*</label></span>
-					<input type="password" name="password" required="true">
+					<input class="input-text" type="password" name="password" required="true">
 					<span>Confirm Password<label>*</label></span>
-					<input type="password" name="password_confirm" required="true">
+					<input class="input-text" type="password" name="password_confirm" required="true">
 				</div>
 				<div class="clear"> </div>
 			</div>
