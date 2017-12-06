@@ -10,7 +10,7 @@
 
 @section('content')
 
-	@include('components.home.trend-program')
+	@include('components.home.trend-program', ['trendPrograms', $trendPrograms])
 	@include('components.home.banner-bottom')
 
 @endsection

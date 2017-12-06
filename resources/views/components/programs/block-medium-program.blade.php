@@ -1,6 +1,6 @@
-<div class="blog_grid">
-	<h3><a href="blog_single.html">{{$program->name}} </a></h3><i class="document"> </i>
-	<a href="blog_single.html"><img src="{{asset('images/programs/'.$program->image)}}" class="img-responsive" alt=""/></a>
+<div id="program-{{$program->id}}" class="blog_grid">
+	<h3><a href="/programs/detail/{{$program->id}}">{{$program->name}} </a></h3><i class="document"> </i>
+	<a href="/programs/detail/{{$program->id}}"><img src="{{asset('images/programs/'.$program->image)}}" class="img-responsive" alt=""/></a>
 	<div class="singe_desc">
 		<p>{{$program->content}}</p>
 		<div class="comments">
@@ -18,7 +18,7 @@
 				{{--  --}}
 				{{-- <li><a href="#"><i class="blog_icon4"> </i><br><span>1206</span></a></li> --}}
 			</ul>
-			<div class="btn_blog"><a href="/programs/{{$program->id}}">Read More</a>
+			<div class="btn_blog"><a href="/programs/detail/{{$program->id}}">Read More</a>
 			</div>
 			<div class="clear"></div>
 		</div>

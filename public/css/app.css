@@ -1403,7 +1403,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
   color: #636b6f;
   background-color: #f5f8fa;
@@ -8350,7 +8350,7 @@ button.close {
   }
 }
 
-.title1 {
-  color: red;
+body {
+  font-size: 16px;
 }
 

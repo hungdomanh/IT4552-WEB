@@ -28,8 +28,8 @@
 			<a class="toggleMenu" href="#">Menu</a>
 			<ul class="nav">
 				<li class="active"><a href="/">Home</a></li>
-				<li><a href="/programs/paging/1">Programs</a></li>
-				<li><a href="/#">Search</a></li>
+				<li><a href="/programs">Programs</a></li>
+				<li><a href="/search">Search</a></li>
 
 				<li><a href="/#"></a></li>
 				@if (Auth::check())

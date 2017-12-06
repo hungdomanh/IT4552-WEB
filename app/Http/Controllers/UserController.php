@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\MyProgram;
+use App\Program;
 use App\User;
 use DB;
 
@@ -26,13 +27,12 @@ class UserController extends Controller
 	public function getMyPage() {
 		// TODO
 		$user = Auth::user();
-		$following_program = DB::table('users')
+		$following_programs = DB::table('users')
 		->where('users.id', $user->id)
 		->leftjoin('my_programs', 'users.id', '=', 'my_programs.user_id')
 		->leftjoin('programs', 'my_programs.program_id', '=', 'programs.id')
-		->get();
-
-		return view('pages.my-page')->with('following_program', $following_program);
+		->paginate(6);
+		return view('pages.my-page')->with('programs', $following_programs);
 	}
 	
 	public function postUpdate(Request $request) {
@@ -49,5 +49,4 @@ class UserController extends Controller
 		$user->save();
 		return redirect()->back()->with('alert', 'Update profile successfully.');
 	}
-	
 }

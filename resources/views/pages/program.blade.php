@@ -14,8 +14,8 @@
 	<div class="container">
 		<div class="row single-top">
 			
-			@include('components.program.left-side')
-			@include('components.programs.right-side')
+			@include('components.program.left-side', ['program', $program])
+			@include('components.program.right-side')
 
 			<div class="clear"></div>
 		</div>

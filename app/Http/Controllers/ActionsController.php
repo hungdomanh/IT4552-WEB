@@ -19,13 +19,21 @@ use Illuminate\Http\Response;
 class ActionsController extends Controller
 {
     //
-	public function getPrograms($userId) {
+	public function getPrograms() {
 		// TODO
-		
+		return "asfsdfsd";
 	}
 	
-	public function postProgramToUser($programId, $userId) {
+	public function postProgramToUser(Request $req) {
 		// TODO
+		$user = Auth::user();
+		$userId = $user->id;
+		$programId = $req->programId;
+
+		if (!$user->height || !$user->weight) {
+			return redirect('profile')->with('alert', 'Update height & weight');
+		}
+
 		$relation = Myprogram::where([
 			['program_id', '=', $programId],
 			['user_id', '=', $userId],

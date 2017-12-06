@@ -23,18 +23,21 @@ Route::post('signup', 	'AuthenController@postSignup');
 Route::post('login', 	'AuthenController@postLogin');
 
 // User
-Route::get( 'profile', 'UserController@getProfile')->middleware('auth');;
-Route::get( 'my-page', 'UserController@getMyPage')->middleware('auth');;
-Route::post('profile', 'UserController@postUpdate')->middleware('auth');;
-
-// Programs
-Route::get( 'programs/{programId}', 	'ProgramController@getProgram');  
-Route::get( 'programs/paging/{paging}', 'ProgramController@getPrograms');
-Route::post('programs/search', 			'ProgramController@postSearch');
+Route::get( 'profile', 'UserController@getProfile')->middleware('auth');
+Route::get( 'my-page', 'UserController@getMyPage')->middleware('auth');
+Route::post('profile', 'UserController@postUpdate')->middleware('auth');
 
 // Actions
-Route::get( 'programs/user/{userId}', 			'ActionsController@getPrograms');
-Route::post('programs/add/{programId}/{userId}', 	'ActionsController@postProgramToUser');
+Route::get( 'programs/user', 			'ActionsController@getPrograms');
+Route::post('programs/add', 					'ActionsController@postProgramToUser');
+
+// Programs
+Route::post('programs/search', 			'ProgramController@postSearch');
+Route::get( 'programs/detail/{programId}', 	'ProgramController@getProgram');  
+Route::get( 'programs', 'ProgramController@getPrograms');
+
+// Search
+Route::get( 'search', 'ProgramController@getSearch');
 
 // Error
 Route::get( 'error', 'ErrorController@getError');

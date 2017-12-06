@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="row section group">
 			<div class="col-md-4">
-				<h4 class="m_7">Newsletter Signup</h4>
-				<p class="m_8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy.</p>
+				<h4 class="m_7">EXPERIENCE THE DIFFERENCE</h4>
+				<p class="m_8">As a member of Gold’s Gym, you’ll enjoy access to the best coaches, personal trainers, and group exercise instructors in the business</p>
 				<form class="subscribe">
 					<input type="text" value="Insert Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Insert Email';}">
 				</form>
@@ -15,26 +15,25 @@
 				<div class="f-logo">
 					<img src="{{asset('images/logo.png')}}" alt=""/>
 				</div>
-				<p class="m_9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis</p>
-				<p class="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">(00) 222 666 444</span></p>
-				<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">info[at]mycompany.com</span></p>
+				<p class="m_9">You’ll join a supportive community of members who share your aspirations. All of that adds up to an experience you won’t find anywhere else.</p>
+				<p class="address">Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">(00) 222 444 666</span></p>
+				<p class="address">Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="m_10">gym@hedspi.com</span></p>
 			</div>
 			<div class="col-md-4">
 				<ul class="list">
 					<h4 class="m_7">Menu</h4>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Trainers</a></li>
-					<li><a href="#">Classes</a></li>
-					<li><a href="#">Pricing</a></li>
-					<li><a href="#">Privacy</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/programs">Programs</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Signup</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 				<ul class="list1">
 					<h4 class="m_7">Community</h4>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Forum</a></li>
-					<li><a href="#">Support</a></li>
-					<li><a href="#">Newsletter</a></li>
+					<li><a href="/programs">Blog</a></li>
+					<li><a href="/programs">Forum</a></li>
+					<li><a href="/programs">Support</a></li>
+					<li><a href="/programs">Newsletter</a></li>
 				</ul>
 			</div>
 			<div class="clear"></div>

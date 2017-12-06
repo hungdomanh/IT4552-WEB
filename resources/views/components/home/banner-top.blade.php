@@ -2,10 +2,10 @@
 	<div class="container">
 		<div class="header-text">
 			<h1>Perfect Fitness</h1>
-			<h2>Best Choice For your site</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+			<h2>Best Choice For You</h2>
+			<p>All of that adds up to an experience you won’t find anywhere else.</p>
 			<div class="banner_btn">
-				<a href="#">Read More</a>
+				<a href="/programs">Read More</a>
 			</div>
 		</div>
 		<div class="header-arrow">

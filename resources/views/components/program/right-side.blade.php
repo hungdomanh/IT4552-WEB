@@ -1,19 +1,18 @@
 <div class="col-md-4 ">
-	<ul class="blog-list">
+{{-- 	<ul class="blog-list">
 		<h4>Categories</h4>
-		@foreach ($programs as $program)
-			<div class="blog_box">
-			<li><a href="#program-{{$program->id}}">{{$program->name}}</a></li>
-			</div>
+		<li><a href="#">Events</a></li>
+		<li><a href="#">Aerobics</a></li>
+		<li><a href="#">Crossfit</a></li>
+		<li><a href="#">Spinning</a></li>
+		<li><a href="#">news</a></li>
+	</ul> --}}
+	<ul class="recent-list">
+		<h4>MY ACTIONS</h4>
+		@foreach ($actions as $action)
+			<li><a href="#!">{{$action->name}}</a><br><span>At: {{$action->time}}h</span> <span class="pull-right">During: {{$action->during_time}}m</span></li>
 		@endforeach
 	</ul>
-{{-- 	<ul class="recent-list">
-		<h4>Recent Posts</h4>
-		<li><a href="#">aliquam erat volutpat</a><br><span>25 April 2014</span></li>
-		<li><a href="#">aliquam erat volutpat</a><br><span>25 April 2014</span></li>
-		<li><a href="#">aliquam erat volutpat</a><br><span>25 April 2014</span></li>
-		<li><a href="#">aliquam erat volutpat</a><br><span>25 April 2014</span></li>
-	</ul> --}}
 {{-- 	<ul class="single_times">
 		<h3>Opening <span class="opening">Hours</span></h3>
 		<li><i class="calender"> </i><span class="week_class">Monday</span><div class="hours_class">h.6:00-h.24:00</div>  <div class="clear"></div></li>
@@ -121,7 +120,14 @@
 		</script>
 		<script type="text/javascript" src="{{asset('js/theme/jquery.flexisel.js')}}"></script>
 	</div> --}}
-	
+{{-- 	<h3 class="m_14">Membership Prices</h3>
+	<div class="members">
+		<h4 class="m_3">25% Discount of for all members</h4>
+		<p>Discount on services and <br>treatments at the GymBase for<br> all membership cards holders.</p>
+		<div class="btn1">
+			<a href="#">More</a>
+		</div>
+	</div> --}}
 {{-- 	<ul  class="blog-list1">
 		<h4>Tags</h4>
 		<li><a href="#">Web Design</a></li>
