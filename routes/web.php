@@ -22,9 +22,9 @@ Route::post('signup', 	'AuthenController@postSignup');
 Route::post('login', 	'AuthenController@postLogin');
 
 // User
-Route::get( 'profile/{username}', 'UsersController@getProfile');
-Route::get( 'my-page/{username}', 'UsersController@getMyPage');
-Route::post('profile/{username}', 'UsersController@postUpdate');
+Route::get( 'profile/{username}', 'UserController@getProfile');
+Route::get( 'my-page/{username}', 'UserController@getMyPage');
+Route::post('profile/{username}', 'UserController@postUpdate');
 
 // Programs
 Route::get( 'programs/{programId}', 	'ProgramController@getProgram');  
@@ -32,8 +32,8 @@ Route::get( 'programs/paging/{paging}', 'ProgramController@getPrograms');
 Route::post('programs/search', 			'ProgramController@postSearch');
 
 // Actions
-Route::get( 'programs/user/{username}', 			'ActionsController@getPrograms');
-Route::post('programs/add/{programId}/{username}', 	'ActionsController@postProgramToUser');
+Route::get( 'programs/user/{userId}', 			'ActionsController@getPrograms');
+Route::post('programs/add/{programId}/{userId}', 	'ActionsController@postProgramToUser');
 
 // Error
 Route::get( 'error', 'ErrorController@getError');

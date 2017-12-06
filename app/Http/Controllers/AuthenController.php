@@ -1,11 +1,15 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\MyProgram;
+use App\User;
+use DB;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Support\Facades\Auth;
 // use function get request url
 use Illuminate\Http\Request;
 use App\Http\Requests;
@@ -36,14 +40,14 @@ class AuthenController extends Controller
 			'fullname'=>'required',
 			'email'=>'required',
 			'password'=>'required',
-			'password_confirmation'=>'required|same:password',
+			// 'password_confirmation'=>'required|same:password',
 			'username'=>'required',
 			'purpose'=>'required'
 			]);
 		$user = new User;
 		$user->fullname = $request->fullname;
 		$user->email = $request->email;
-		$user->user_name = $request->username;
+		$user->username = $request->username;
 		$user->password = bcrypt($request->password);
 		$user->purpose = $request->purpose;
 		$user->save();
