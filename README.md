@@ -24,6 +24,7 @@ OPEN NEW TERMINAL
 	npm run watch
 
 Create db: 
+https://www.freemysqlhosting.net/account/
 ```
 	composer dump-autoload
 	php artisan db:seed
@@ -33,3 +34,5 @@ Copy all photos FROM database/seeds/tmp TO public/images/programs
 -------
 NOTE: 
 	edit file .env & /config/database.php
+
+APP_KEY: base64:NgUft29he0817jom/5RxWiC8885g0vuKwACeULAia+M=
