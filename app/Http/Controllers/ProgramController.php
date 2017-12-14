@@ -71,14 +71,28 @@ class ProgramController extends Controller
 			]);
 	}   
 
-	public function getProgramAllContent() {
+	public function getProgramsSuggest() {
 		// TODO
+		$user = Auth::user();
+		if (!$user->height || !$user->weight) {
+			return redirect('profile')->with('alert', 'Update height & weight');
+		}
+		$userId = $user->id;
+		$birthdayYear =  date('Y', strtotime($user->birthday));
+		$yearOld = date("Y")-$birthdayYear;
+		$height = $user->height;
+		$weight = $user->weight;
+		
+		if ($yearOld <= 40 && $weight >= $height-90) { // level 3
+			$suggestProgram = Program::where('level', 3)->paginate(6);
+		} elseif ($yearOld > 50) { // level 1
+			$suggestProgram = Program::where('level', 1)->paginate(6);
+		} else { // level 2
+			$suggestProgram = Program::where('level', 2)->paginate(6);
+		}
 
+		return view('pages.my-page')->with('programs', $suggestProgram);
 	}
 	
-	public function getProgramsPaging() {
-		// TODO
-		// return view('pages.login');
-	}
 
 }

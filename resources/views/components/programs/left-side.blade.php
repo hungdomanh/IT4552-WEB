@@ -4,7 +4,6 @@
 		@include('components.programs.block-medium-program', ['program'=>$program])
 	</div>
 	@endforeach
-	
 	<ul class="dc_pagination dc_paginationA dc_paginationA06">
 
 		<li><a href="{{$programs->previousPageUrl()}}" class="current">Prev</a></li>

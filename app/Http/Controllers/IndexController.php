@@ -13,7 +13,7 @@ class IndexController extends Controller
     //
     public function getHome() {
     	$trendPrograms = Program::all()->random(6);
-
+    	
     	return view('pages.home')->with('trendPrograms', $trendPrograms);
     }
 }

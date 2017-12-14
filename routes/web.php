@@ -35,6 +35,7 @@ Route::post('programs/add', 					'ActionsController@postProgramToUser');
 Route::post('programs/search', 			'ProgramController@postSearch');
 Route::get( 'programs/detail/{programId}', 	'ProgramController@getProgram');  
 Route::get( 'programs', 'ProgramController@getPrograms');
+Route::get( 'programs/suggest', 'ProgramController@getProgramsSuggest');
 
 // Search
 Route::get( 'search', 'ProgramController@getSearch');

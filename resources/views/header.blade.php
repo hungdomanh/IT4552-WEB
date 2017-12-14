@@ -2,7 +2,7 @@
 <div class="header-bottom">
 	<div class="container">
 		<div class="header-bottom_left">
-			<i class="phone"> </i><span>1-200-346-2986</span>
+			<i class="phone"> </i><span>0-222-444-666</span>
 		</div>
 		<div class="social">	
 			<ul>	
@@ -33,6 +33,7 @@
 
 				<li><a href="/#"></a></li>
 				@if (Auth::check())
+					<li><a href="/programs/suggest">Suggest</a></li>
 					<li><a href="/my-page">My page</a></li>
 					<li><a href="/profile">Profile</a></li>
 					<li><a href="/logout">Logout</a></li>
